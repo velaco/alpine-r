@@ -4,7 +4,8 @@ Docker images for R based on Alpine Linux.
 
 ## Supported Tags
 
-* **base-3.5.0-r1** ([base-3.5.0-r1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/base-3.5.0-r1/Dockerfile)): R base and dev built from Alpine Linux native packages (APK).
+* **base-3.5.0-r1** ([base-3.5.0-r1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/base-3.5.0-r1/Dockerfile)): R base and dev built from Alpine Linux 3.8 branch native packages (APK).
+* **base-3.5.1-r1** ([base-3.5.1-r1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/base-3.5.1-r1/Dockerfile)): R base and dev built from Alpine Linux edge branch native packages (APK).
 
 ## Why Use alpine-r Images
 
