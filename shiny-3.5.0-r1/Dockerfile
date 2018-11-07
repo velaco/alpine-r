@@ -6,15 +6,16 @@ FROM velaco/alpine-r:base-3.5.0-r1
 MAINTAINER Aleksandar Ratesic "aratesic@gmail.com"
 
 # TODO: Separate to build and persistent!
-# curl-dev, python2, g++ and gcc 
-# already installed as persistent deps in
-# r-base container velaco/alpine-r:base-3.5.0-r1
 ENV ALL_DEPS \
     automake==1.15.1-r0 \
     autoconf \
     bash \
     m4 \
     file \
+    curl-dev \
+    python2 \ 
+    g++ \ 
+    gcc \
     cmake \
     libc6-compat \
     git \
