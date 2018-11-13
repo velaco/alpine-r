@@ -30,7 +30,7 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/main' >> /etc/apk/repositori
     apk upgrade --update && \
     apk add --no-cache $ALL_DEPS && \
     R -e "install.packages(c('shiny'), repos='http://cran.rstudio.com/')" && \
-    git clone https://github.com/rstudio/shiny-server.git && \
+    git clone https://github.com/velaco/shiny-server.git && \
     cd shiny-server && mkdir tmp && cd tmp && \
     DIR=`pwd` && PATH=$DIR/../bin:$PATH && \
     cmake -DCMAKE_INSTALL_PREFIX=/usr/local ../ && \
