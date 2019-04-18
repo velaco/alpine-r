@@ -5,7 +5,7 @@ Docker images for R based on Alpine Linux.
 ## Supported Tags
 
 * **base-3.5.0-r1** ([base-3.5.0-r1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/base-3.5.0-r1/Dockerfile)): R base and dev built from Alpine Linux 3.8 branch native packages (APK).
-* **base-3.5.1-r1** ([base-3.5.1-r1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/base-3.5.1-r1/Dockerfile)): R compiled from source.
+* **base-3.5.1-r1** ([base-3.5.1-r1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/base-3.5.1-r1/Dockerfile)): R base and dev built from Alpine Linux edge branch native packages (APK).
 * **base-3.5.1** ([base-3.5.1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/base-3.5.1/Dockerfile)): R 3.5.1 compiled from source.
 * **shiny-3.5.0-r1** ([shiny-3.5.0-r1/Dockerfile](https://github.com/velaco/alpine-r/blob/master/shiny-3.5.0-r1/Dockerfile)): Shiny Server on R 3.5.0-r1 and Alpine Linux 3.8.
 
